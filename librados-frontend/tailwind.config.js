@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        softWhite: "rgb(248 250 252)",
+        principal: "rgb(12 10 9)"
       },
     },
   },
