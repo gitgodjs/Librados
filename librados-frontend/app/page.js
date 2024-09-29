@@ -59,7 +59,7 @@ export default function LandingPage() {
                     bgImage={'https://i.pinimg.com/564x/9b/fa/1f/9bfa1ffcb2c2e7dd42dad925b96ccabf.jpg'}
                     name={'Rocio'}
                     imageUser={'https://i.pinimg.com/564x/96/3a/47/963a470446a465b9465042f4562fecfe.jpg'}
-                    text={'buenisimo hermano'}
+                    text={'Yo nunca chotie'}
                     position={{ bottom: '10%', right: '16%' }} 
                 />
             </div>
