@@ -7,6 +7,7 @@ import Script from "next/script";
 
 import Navbar from '../components/Navbar/Navbar';
 import MobileNavbar from '../components/Navbar/MobileNavbar';
+import Footer from "@/components/Footer/Footer";
 
 const RootLayout = ({ children }) => {
   const [isMobile, setIsMobile] = useState(false);
@@ -40,6 +41,7 @@ const RootLayout = ({ children }) => {
           {isMobile ? <MobileNavbar /> : <Navbar />}
         </div>
         <main className="flex-grow pb-16 md:pb-0">{children}</main>
+        <Footer/>
         <Toaster 
           position='bottom-center'
           duration={1500}

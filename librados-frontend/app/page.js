@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import { Presentacion } from '@/components/Presentaciones/Pres'
 import { CardPres } from '@/components/Cards/CardPres'
+//Muy buena atención, total calidad precio! 
 export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -42,12 +43,42 @@ export default function LandingPage() {
                 imgPosition={'col-end-7 col-span-3'}
             />
         </section>
-        <section id='Opiniones' className='grid p-2 m-2'>
-          <CardPres 
-          
-          
-          
-          />
+        <section id='Opiniones' className='grid grid-cols-4 gap-4 p-2 m-2 md:grid-cols-3'>
+            <div className='flex justify-center col-start-2 col-span-3 md:col-start-1 md:col-end-2 '>
+                <CardPres 
+                    bgImage={'https://i.pinimg.com/564x/9b/fa/1f/9bfa1ffcb2c2e7dd42dad925b96ccabf.jpg'}
+                    name={'Rocio'}
+                    imageUser={'https://i.pinimg.com/564x/96/3a/47/963a470446a465b9465042f4562fecfe.jpg'}
+                    text={'buenisimo hermano'}
+                    position={{ bottom: '70%', right: '-18%' }} 
+                />
+            </div>
+            
+            <div className='flex justify-center col-start-1 col-end-4 md:col-start-2 md:col-end-3 '>
+                <CardPres 
+                    bgImage={'https://i.pinimg.com/564x/9b/fa/1f/9bfa1ffcb2c2e7dd42dad925b96ccabf.jpg'}
+                    name={'Rocio'}
+                    imageUser={'https://i.pinimg.com/564x/96/3a/47/963a470446a465b9465042f4562fecfe.jpg'}
+                    text={'buenisimo hermano'}
+                    position={{ bottom: '10%', right: '16%' }} 
+                />
+            </div>
+            
+            <div className='flex justify-center col-start-2 col-end-5 md:col-start-3 md:col-end-4 '>
+                <CardPres 
+                    bgImage={'https://i.pinimg.com/564x/9b/fa/1f/9bfa1ffcb2c2e7dd42dad925b96ccabf.jpg'}
+                    name={'Rocio'}
+                    imageUser={'https://i.pinimg.com/564x/96/3a/47/963a470446a465b9465042f4562fecfe.jpg'}
+                    text={'buenisimo hermano'}
+                    position={{ bottom: '50%', right: '-19%' }} 
+                />
+            </div>
+        </section>
+        <section className='flex flex-col items-center justify-center'>
+          <div className='border-b-2 border-black m-2 p-2 w-11/12 rounded-md'></div>
+          <Link
+          href='/encargar'
+          > Seguir Viendo </Link>
         </section>
       </main>
     </div>
