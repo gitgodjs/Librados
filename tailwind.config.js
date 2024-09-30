@@ -13,6 +13,10 @@ module.exports = {
         softWhite: "rgb(248 250 252)",
         principal: "rgb(12 10 9)"
       },
+      fontFamily: {
+        kanit: ['Kanit', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
     },
   },
   plugins: [],

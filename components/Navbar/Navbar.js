@@ -7,7 +7,7 @@ export default function DesktopNavbar() {
   const pathname = usePathname();
   const isActive = (path) => pathname === path;
   return (
-    <header className="bg-primary text-primary-foreground shadow-lg sticky top-0 z-10">
+    <header className="relative bg-transparent text-primary-foreground sticky top-0 z-10">
       <nav className="container mx-auto px-6 py-4">
         <div className="grid grid-cols-3 items-center">
           {/* Column 1: App Name */}
